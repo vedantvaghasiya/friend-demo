@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Network Friend Recommendation</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Social Network Friend Recommendation</h1>
+
+        <!-- Add User Section -->
+        <div class="section">
+            <h2>Add User</h2>
+            <input type="text" id="username" placeholder="Enter username">
+            <button onclick="addUser()">Add User</button>
+        </div>
+
+        <!-- Add Friendship Section -->
+        <div class="section">
+            <h2>Add Friendship</h2>
+            <input type="text" id="friend1" placeholder="User 1">
+            <input type="text" id="friend2" placeholder="User 2">
+            <button onclick="addFriendship()">Add Friendship</button>
+        </div>
+
+        <!-- Friend Recommendation Section -->
+        <div class="section">
+            <h2>Find Friend Recommendations</h2>
+            <input type="text" id="recommendUser" placeholder="Enter username">
+            <input type="number" id="distance" placeholder="Enter distance">
+            <button onclick="recommendFriends()">Find Recommendations</button>
+        </div>
+
+        <!-- Results Section -->
+        <div class="section">
+            <h2>Results</h2>
+            <p id="recommendationText">Results will appear here...</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
