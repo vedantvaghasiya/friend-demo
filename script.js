@@ -71,3 +71,10 @@ function recommendFriends() {
             ? `Recommended Friends at Distance ${maxDistance}: ${filteredRecommendations.join(", ")}`
             : "No recommendations available.";
 }
+
+
+
+
+
+
+  
